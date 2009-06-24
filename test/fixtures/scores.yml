@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  username: MyString
+  level: 1
+  points: 1
+  email: MyString
+
+two:
+  username: MyString
+  level: 1
+  points: 1
+  email: MyString

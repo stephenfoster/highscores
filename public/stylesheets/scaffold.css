@@ -1,0 +1,284 @@
+
+.primary-1 { background-color: #7F0017 }
+.primary-2 { background-color: #5F1825 }
+.primary-3 { background-color: #53000F }
+.primary-4 { background-color: #BF3049 }
+.primary-5 { background-color: #BF5669 }
+
+.float_right{
+  float: right;
+  padding: 5%;
+}
+
+.float_left{
+  float: left;
+  padding: 5%;
+}
+
+#main_container {
+  background-color:#7F0017;
+  height:auto;
+  margin:auto;
+  width:90%;
+}
+
+#header {
+  width: 100%;
+  background-repeat: repeat;
+  background-position: right;
+}
+
+#content {
+  background-color: #53000F;
+  padding: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 80%;
+  min-height: 1000px;
+}
+
+#left_bar {
+  float: left;
+}
+
+#right_bar {
+  float: right;
+  text-align: left;
+  width: 14.5%;
+}
+
+#menu {
+  background:transparent url(images/menu_bg.gif) no-repeat scroll center center;
+  height:44px;
+  margin:5px auto;
+  padding:0;
+  text-align:center;
+  width:821px;
+}
+
+.title {
+  clear:both;
+  color:#FFA268;
+  display:block;
+  font-size:38px;
+  margin:5px 0;
+  padding:0;
+  text-align:center;
+}
+
+#menu ul li {
+  display:inline;
+  float:left;
+  font-size:23px;
+  height:44px;
+  line-height:44px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  padding:0;
+  width:auto;
+}
+
+#footer {
+  background-color:#350723;
+  border-top:1px solid #CE3291;
+  color:#508AA1;
+  height:60px;
+  margin:auto;
+  padding:5px;
+  width:850px;
+}
+
+h1, h3 { color: #BF3049; }
+
+body { background-color: #fff; color: #fff; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #BF5669; }
+a:visited { color: #BF5669; }
+a:hover { color: #BF5669;}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+  color: #000;
+}
+
+
+table tr td table.pretty{
+  width: 100%;
+}
+
+table{
+  width: 100%;
+}
+
+td{
+  margin: 10px;
+  padding: 10px;
+}
+
+th{
+}
+
+table table{
+  border-spacing: 0px;
+}
+
+table table tr{
+  padding-bottom: 10px;
+}
+
+table.pretty {
+  border-collapse: collapse;
+  border: 1px solid #38160C;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  color: #F6ECF0;
+  background: #641B35;
+  }
+
+table.pretty a {
+  
+}
+
+caption {
+  text-align: left;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  }
+table.pretty td, th {
+  border: 3px solid #B85A7C;
+  padding: .8em;
+  color: #F6ECF0;
+  }
+table.pretty thead th, tfoot th {
+  font: bold 11px verdana, arial, helvetica, sans-serif;
+  border: 1px solid #A85070;;
+  text-align: left;
+  background: #38160C;
+  color: #F6ECF0;
+  padding-top:6px;
+  }
+table.pretty tbody td a {
+  background: transparent;
+  color: #000;
+}
+table.pretty tbody td a:hover {
+  background: transparent;
+  color: #FFFFFF;
+  }
+table.pretty tbody th a {
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  text-decoration: none;
+  font-weight:normal;
+  color: #F6ECF0;
+  }
+table.pretty tbody th a:hover {
+  background: transparent;
+  color: #FFFFFF;
+  }
+table.pretty tbody th, tbody td {
+  vertical-align: top;
+  text-align: left;
+  }
+table.pretty tfoot td {
+  border: 1px solid #38160C;
+  background: #38160C;
+  padding-top:6px;
+  }
+table.pretty .odd {
+  background: #7B2342;
+  }
+table.pretty tbody td:hover {
+  }
+
+table.pretty tbody tr:hover th,
+table.pretty tbody tr.odd:hover th {
+  }
+
+table.sub_header
+{
+  font-size: 20px;
+  
+  background-color: #23020F;
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+
+table.sub_header td{
+  text-align: center;
+}
+
+table.header td{
+  color: #BF3049;
+  font-size: 30px;
+  text-align: center;
+}
+
+table.header td.nav{
+  font-size: 20px;
+  color: #BF5669;
+}
+
+table.header td.nav a{
+  font-size: 20px;
+  color: #BF3049;
+}
+
+table.header td.user_name{
+  font-size: 200%;
+  border-right: 3px solid #B85A7C;
+  width: 35%;
+}
+
+table.header{
+  background-color: #23020F;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
